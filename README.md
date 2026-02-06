@@ -61,7 +61,6 @@ These observations hinted that **lexical and structural cues** may be highly pre
 - Multilayer Perceptron classifier
 - Captures lexical and stylistic patterns
 
-> **Purpose:** Establish whether simple word-distribution features are sufficient.
 
 ---
 
@@ -70,7 +69,6 @@ These observations hinted that **lexical and structural cues** may be highly pre
 - **TCN (Temporal Convolutional Network)**
 - **XGBoost** trained on embedding representations
 
-> **Purpose:** Capture temporal and sequential dependencies beyond word frequency.
 
 ---
 
@@ -79,7 +77,6 @@ These observations hinted that **lexical and structural cues** may be highly pre
 - TCN + XGBoost
 - Final predictions stacked using Logistic Regression
 
-> **Purpose:** Combine neural sequence modeling with strong decision boundaries.
 
 ---
 
@@ -137,6 +134,3 @@ All models were evaluated using **5-fold cross-validation** with:
 - **NLP:** Hugging Face Transformers, NLTK
 - **Embeddings:** TF-IDF, GloVe (300d)
 - **Models:** GRU, TCN, DistilBERT, RoBERTa
-
----
-
